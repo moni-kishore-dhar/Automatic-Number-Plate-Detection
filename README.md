@@ -1,7 +1,7 @@
 <h1>Automatic Number Plate Detection</h1>
 
 
-Vehicle nameplate detection is crucial for automated vehicle identification systems, widely used in traffic management and security applications. This report presents an effective method for detecting vehicle nameplates using image processing techniques.
+Vehicle nameplate detection is crucial for automated vehicle identification systems, widely used in traffic management and security applications. This project presents an effective method for detecting vehicle nameplates using image processing techniques.
 <br><br>
 <b>Methods:</b> Images were collected from the local area and then read and displayed in their original form. To simplify the image, it was converted from RGB to grayscale. The grayscale image was sharpened to highlight edge details, followed by the application of the Sobel operator for edge detection. The detected edges were further processed using image dilation with a specific structuring element. Edge processing was performed in both horizontal and vertical directions, utilizing histograms to identify significant edge information. Dynamic thresholding was then applied to filter out irrelevant edges, identifying likely candidates for the number plate based on histogram analysis.
 <br><br>
